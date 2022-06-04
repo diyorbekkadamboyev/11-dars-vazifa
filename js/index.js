@@ -43,11 +43,13 @@ elForm.addEventListener("submit", function (evt) {
 
     elBox.appendChild(newDiv);
 
-    newDiv.style.border = "2px solid red";
-    newDiv.style.borderRadius = "2px";
-
-    // elBox.appendChild(newPName);
-    // elBox.appendChild(newPRelation);
-    // elBox.appendChild(newPPhone);
+    newDiv.style.borderRadius = "5px";
+    newDiv.style.paddingLeft = "14px";
+    newDiv.style.border = "3px solid black";
+    newDiv.style.backgroundColor = "#F0F8FF";
+    newDiv.style.marginTop = "47px";
+    newPName.style.fontSize = "28px";
+    newPName.style.fontWeight = "bold";
+    newPRelation.style.fontWeight = "bold";
   }
 });

@@ -1,2 +1,12 @@
-.box {
+.form,
+.boxs {
+  width: 40%;
+}
+
+.wrappr {
+  margin-top: 70px;
+}
+
+.contact-heading {
+  padding-bottom: 30px;
 }
